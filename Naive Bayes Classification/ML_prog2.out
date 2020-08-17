@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section.1}{Machine Learning Lab 2}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Importing libraries for entire exercise}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Naive Bayes Classification on numeric data}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Loading data}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Defining function to convert classes to numeric}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Applying conversion to entire dataframe and also preparing output vector}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.4}{Splitting data and test and train sets \(75-train and 25 test\)}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.5}{Setting up Naive Bayes classifier to classify whether tumor is benign or malignant}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.5.1}{We have to assume that the distribution of the data is Gaussian for the classifier to work \(Hence the `Naive'\)}{subsection.2.5}% 9
+\BOOKMARK [3][-]{subsubsection.2.5.2}{To this end we have used GuassianNB\( \) function}{subsection.2.5}% 10
+\BOOKMARK [2][-]{subsection.2.6}{Error Metric 1: Accuracy}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.7}{Error Metric 2: Precision}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Introduced the confusion matrix that is essential to calculate the necessary metrics}{subsection.2.7}% 13
+\BOOKMARK [2][-]{subsection.2.8}{Error Metric 3: Recall}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.9}{Error Metric 4: F1 score \(The most accurate metric to decide on how well the model is doing}{section.2}% 15
+\BOOKMARK [1][-]{section.3}{Plotting error metrics}{}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Plot 1: Precision vs Recall}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Plot 2: The confusion matrix}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Naive Bayes classification on Nominal data}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Loading data from sklearn}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.2}{Selecting specific categories as features and splitting data and test and train sets}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.3}{Preview of the data}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.4}{Setting up Naive Bayes classification to classify into what category of news it is}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.4.1}{We first vectorize the articles using tf-idf that creates a feature vector oout of the frequency of words in an article}{subsection.4.4}% 24
+\BOOKMARK [2][-]{subsection.4.5}{Predicting class labels}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.6}{Error metric 1: Accuracy}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.7}{Error Metric 2: Precision}{section.4}% 27
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Introduced the confusion matrix that is essential to calculate the necessary metrics}{subsection.4.7}% 28
+\BOOKMARK [2][-]{subsection.4.8}{Error Metric 3: Recall}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.9}{Error Metric 4: F1 Score}{section.4}% 30
+\BOOKMARK [1][-]{section.5}{Plotting error metrics}{}% 31
+\BOOKMARK [2][-]{subsection.5.1}{Plot 1: Confusion matrix}{section.5}% 32

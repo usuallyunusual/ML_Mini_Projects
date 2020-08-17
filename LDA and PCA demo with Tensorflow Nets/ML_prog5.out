@@ -1,0 +1,39 @@
+\BOOKMARK [1][-]{section.1}{ML\137Prog4}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Demonstrating lda and pca}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Importing necessary libraries}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Class map. Dict containing values of each class}{subsection.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.3}{Using fashion mnist dataset}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Has about 60000 train and 10000 test images rangin through 10 classes}{subsection.1.3}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Use index to see through the dataset \(Train\)}{subsection.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.4}{Class distribution of training set. Uniform}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.5}{Class distribution of test set. Also uniform}{section.1}% 9
+\BOOKMARK [3][-]{subsubsection.1.5.1}{Class distirbutions help debuggin classifier issues and having correct assumptions about data}{subsection.1.5}% 10
+\BOOKMARK [2][-]{subsection.1.6}{Normalizing data and converting to float}{section.1}% 11
+\BOOKMARK [3][-]{subsubsection.1.6.1}{tf needs float values}{subsection.1.6}% 12
+\BOOKMARK [2][-]{subsection.1.7}{Applying PCA\(\) on the dataset}{section.1}% 13
+\BOOKMARK [3][-]{subsubsection.1.7.1}{PCA maps the input feature space into another feature space based on eigenvectors. It considers variance of data}{subsection.1.7}% 14
+\BOOKMARK [3][-]{subsubsection.1.7.2}{It is unsupervised and helps remove correlated attributes. Denoising can also be done.}{subsection.1.7}% 15
+\BOOKMARK [3][-]{subsubsection.1.7.3}{Has disadvantages. Showcased later}{subsection.1.7}% 16
+\BOOKMARK [3][-]{subsubsection.1.7.4}{Displaying Correlation between a subset of input feature space}{subsection.1.7}% 17
+\BOOKMARK [3][-]{subsubsection.1.7.5}{Converting to PCA feature space}{subsection.1.7}% 18
+\BOOKMARK [3][-]{subsubsection.1.7.6}{Displaying correlation of pca feature space.}{subsection.1.7}% 19
+\BOOKMARK [2][-]{subsection.1.8}{Visualizing PCA vs LDA}{section.1}% 20
+\BOOKMARK [3][-]{subsubsection.1.8.1}{PCA feature space in 2D plot}{subsection.1.8}% 21
+\BOOKMARK [2][-]{subsection.1.9}{Converting inpout space to LDA feature space}{section.1}% 22
+\BOOKMARK [3][-]{subsubsection.1.9.1}{It is important to note that LDA is not only a dimensionality reducing technique, rather it is also a classificaton technique. It essentially converts the feature space to find the axis that}{subsection.1.9}% 23
+\BOOKMARK [2][-]{subsection.1.10}{2D plot of LDA feature space.}{section.1}% 24
+\BOOKMARK [3][-]{subsubsection.1.10.1}{The difference btween PCA and LDA is evident here. LDA plot has more separability}{subsection.1.10}% 25
+\BOOKMARK [2][-]{subsection.1.11}{3D plot of the LDA feature space to inspect separability further}{section.1}% 26
+\BOOKMARK [2][-]{subsection.1.12}{LDA \(As a classifier also\) tends to overfit the data as it is a supervised technique.}{section.1}% 27
+\BOOKMARK [3][-]{subsubsection.1.12.1}{It aims to maximise the distance between class means using class labels and this behavior tends to overfit the data if not careful}{subsection.1.12}% 28
+\BOOKMARK [3][-]{subsubsection.1.12.2}{Here we choose class 0 \(Shirt/top\) and separate that class into 3 classes.}{subsection.1.12}% 29
+\BOOKMARK [2][-]{subsection.1.13}{Visualizing class 0.}{section.1}% 30
+\BOOKMARK [3][-]{subsubsection.1.13.1}{It is the same class for us.}{subsection.1.13}% 31
+\BOOKMARK [2][-]{subsection.1.14}{Plotting LDA feature space of constructed pseudo classes.}{section.1}% 32
+\BOOKMARK [3][-]{subsubsection.1.14.1}{It is clear to see that the model tries to separate classes even when there is no difference}{subsection.1.14}% 33
+\BOOKMARK [2][-]{subsection.1.15}{Explorng how classification fares on different feature spaces}{section.1}% 34
+\BOOKMARK [2][-]{subsection.1.16}{Network trained on Straight up original input space \(Best performing model\)}{section.1}% 35
+\BOOKMARK [2][-]{subsection.1.17}{Network trained on PCA input space.}{section.1}% 36
+\BOOKMARK [2][-]{subsection.1.18}{Network trained on LDA feature space}{section.1}% 37
+\BOOKMARK [2][-]{subsection.1.19}{Using LDA feature space of PCA feature space to train network}{section.1}% 38
+\BOOKMARK [3][-]{subsubsection.1.19.1}{Applying PCA to LDA first acts as a regualarizer to LDA and gives better performance than either one. \(In this case\)}{subsection.1.19}% 39

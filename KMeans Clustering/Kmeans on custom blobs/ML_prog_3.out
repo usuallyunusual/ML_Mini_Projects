@@ -1,0 +1,7 @@
+\BOOKMARK [2][-]{subsection.0.1}{Demonstrate K Means Algorithm.}{}% 1
+\BOOKMARK [2][-]{subsection.0.2}{Import Packages}{}% 2
+\BOOKMARK [2][-]{subsection.0.3}{Making the blobs. This is a function that creates samples for us}{}% 3
+\BOOKMARK [3][-]{subsubsection.0.3.1}{We have 6 centres and 200 samples from this}{subsection.0.3}% 4
+\BOOKMARK [2][-]{subsection.0.4}{Displaying a scatter to visualize the blob samples}{}% 5
+\BOOKMARK [2][-]{subsection.0.5}{Using Sklearn KMeans function}{}% 6
+\BOOKMARK [2][-]{subsection.0.6}{Visualizing the clustered data again using the same scatter plot but with colors}{}% 7

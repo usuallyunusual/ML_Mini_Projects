@@ -1,0 +1,36 @@
+\BOOKMARK [1][-]{section.1}{ML LAB PROGRAM 4}{}% 1
+\BOOKMARK [1][-]{section.2}{Demonstrating PCA}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Importing necessary libraries}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Resizing all of the images in the dataset to 64 x 64}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Data consists of 10000 images of cats and dogs that are of different sizes.}{subsection.2.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Preparing training data}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Using glob to list files \( We are going to read only half the data i.e 4000 images for train set\)**}{subsection.2.3}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Read images \(Using matlplotlib.image\) into a numpy array}{subsection.2.3}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Preparing a target array for the train set.}{subsection.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Finally we have train\137set\137x \( train set data\) and train\137set\137y \( targets \)}{subsection.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.4}{Preparing test set}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Using glob to list files \( We are reading about half the images i.e 500 \)**}{subsection.2.4}% 12
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Reading the images into numpy array}{subsection.2.4}% 13
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Preparing targets for test set}{subsection.2.4}% 14
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Finally we have test\137set\137x \( test set data\) and test\137set\137y \( targets \)}{subsection.2.4}% 15
+\BOOKMARK [2][-]{subsection.2.5}{Shuffling the dataset using sklearn's shuffle \( \)}{section.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.5.1}{The sizes after shuffling are displayed}{subsection.2.5}% 17
+\BOOKMARK [2][-]{subsection.2.6}{Modify index \(within bounds [0 , 4000] to view train data}{section.2}% 18
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Normalizing is not necesssary as all values are between 0 and 255}{subsection.2.6}% 19
+\BOOKMARK [2][-]{subsection.2.7}{Making a single vector out of a \(64,64,3\) image.}{section.2}% 20
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Resultant sizes are displayed}{subsection.2.7}% 21
+\BOOKMARK [2][-]{subsection.2.8}{PCA for visualization of data}{section.2}% 22
+\BOOKMARK [3][-]{subsubsection.2.8.1}{Using PCA \( \) to reduce dimension from 3072 to 2 \( 2D plot \)}{subsection.2.8}% 23
+\BOOKMARK [3][-]{subsubsection.2.8.2}{Using PCA \( \) to reduce dimesnionality from 3072 to 3 \(3D plot\)}{subsection.2.8}% 24
+\BOOKMARK [2][-]{subsection.2.9}{PCA \( \) to reduce dimensionality using number of components}{section.2}% 25
+\BOOKMARK [2][-]{subsection.2.10}{PCA \( \) to reduce dimensionality using percentage of explained variance}{section.2}% 26
+\BOOKMARK [2][-]{subsection.2.11}{Visualizing the number of dimensions vs the preserved variance plot}{section.2}% 27
+\BOOKMARK [3][-]{subsubsection.2.11.1}{We can see that for about 145 dimensions we get 90\045 variance}{subsection.2.11}% 28
+\BOOKMARK [2][-]{subsection.2.12}{Training a logistic regression model on original data set}{section.2}% 29
+\BOOKMARK [3][-]{subsubsection.2.12.1}{Takes about 10 minutes to train}{subsection.2.12}% 30
+\BOOKMARK [3][-]{subsubsection.2.12.2}{Accuracy is reported at the end}{subsection.2.12}% 31
+\BOOKMARK [2][-]{subsection.2.13}{Training logistic regression model on data after PCA \( \) is apllied}{section.2}% 32
+\BOOKMARK [3][-]{subsubsection.2.13.1}{Using PCA \( \) to reduce dimensionality}{subsection.2.13}% 33
+\BOOKMARK [3][-]{subsubsection.2.13.2}{Model takes a few seconds to train \( 1500\045 decrease in time taken or almost 150 times faster\)}{subsection.2.13}% 34
+\BOOKMARK [3][-]{subsubsection.2.13.3}{Accuracy is reported at the end}{subsection.2.13}% 35
+\BOOKMARK [3][-]{subsubsection.2.13.4}{Reducing training time by 150 times the original for a 4\045 drop in accuracy. With enough data this could be rectified}{subsection.2.13}% 36
