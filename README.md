@@ -8,3 +8,4 @@ Contains a variety of machine learning algorithms implemented in python with dec
 6. PCA Demo contains an overview of how PCA works and how exactly it helps, using Logistic Regression to validate results
 7. Logistic Regression has a description of sklearns methods for generating synthetic dataset along with logistic regression and also plotting probability boundaries
 8. Compare Classifiers compares four different classifiers, LDA,Neural Nets, Logistic Regression and KNN. Wisconsin breast Cancer data set is used.
+9. Dimensionality reduction contains a good amount of theory about Multidimensional scaling, LDA and PCA and usage of speeach features(Temporal) to see which method is useful (Used keras neural nets).
