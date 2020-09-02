@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.17)  2 SEP 2020 09:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.17)  2 SEP 2020 12:00
 entering extended mode
 **"./Dimensionality Reduction.tex"
 ("Dimensionality Reduction.tex"
@@ -1305,7 +1305,7 @@ ged.
 Here is how much of TeX's memory you used:
  21233 strings out of 492895
  392710 string characters out of 3123735
- 708637 words of memory out of 3000000
+ 708699 words of memory out of 3000000
  24650 multiletter control sequences out of 15000+200000
  40508 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1321,7 +1321,7 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/vig
 ne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Us
 ers/vigne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on "Dimensionality Reduction.pdf" (17 pages, 268894 bytes).
+Output written on "Dimensionality Reduction.pdf" (17 pages, 269093 bytes).
 PDF statistics:
  318 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)
