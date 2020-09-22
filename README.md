@@ -9,3 +9,5 @@ Contains a variety of machine learning algorithms implemented in python with dec
 7. Logistic Regression has a description of sklearns methods for generating synthetic dataset along with logistic regression and also plotting probability boundaries
 8. Compare Classifiers compares four different classifiers, LDA,Neural Nets, Logistic Regression and KNN. Wisconsin breast Cancer data set is used.
 9. Dimensionality reduction contains a good amount of theory about Multidimensional scaling, LDA and PCA and usage of speeach features(Temporal) to see which method is useful (Used keras neural nets).
+10. Linear Regression shows how to visualize the hypothessis line and use regression with regularization both ridge and lasso and also explores what would be the ideal hypothesis function
+11. Support vector machines explore how the SVM behaves with large data and also explores how SVM cannot handle non numeric data and talks about how we could encode string into numeric data to use for the SVM
