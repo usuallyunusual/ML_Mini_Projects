@@ -11,3 +11,4 @@ Contains a variety of machine learning algorithms implemented in python with dec
 9. Dimensionality reduction contains a good amount of theory about Multidimensional scaling, LDA and PCA and usage of speeach features(Temporal) to see which method is useful (Used keras neural nets).
 10. Linear Regression shows how to visualize the hypothessis line and use regression with regularization both ridge and lasso and also explores what would be the ideal hypothesis function
 11. Support vector machines explore how the SVM behaves with large data and also explores how SVM cannot handle non numeric data and talks about how we could encode string into numeric data to use for the SVM
+12. Random Forest classifer explores the algorithm and also talks about the sklearn implementation and how its implenetation isn't really complete.
